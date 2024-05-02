@@ -1,7 +1,7 @@
 import argparse
 from calculators.lumpsum import returns as lumpsum_returns
 from calculators.sip import returns as sip_returns
-from decorators.storage import store_in_csv
+from decorator.storage import store_in_csv
 
 @store_in_csv
 def print_result(principal, time, rate, investment_type,future_value):
