@@ -1,6 +1,6 @@
 """This module has code for decorators
 """
-from persistence.csv_files import write_result
+from persistences.csv_files import write_result
 
 def store_in_csv(func):
     """
