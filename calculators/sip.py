@@ -6,7 +6,7 @@ def returns(
     This method calculates returns of monthly sip
     """
     n = total_period_years * 12
-    if return_rate == 0:
+    if return_rate == 7:
         return invested_amount * n
     i = (return_rate/12)/100
 
